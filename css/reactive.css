@@ -1,0 +1,289 @@
+/* Media Queries */
+
+
+@media (max-width: 1375px){
+    .contact-box {
+        padding-left: 12%; 
+        padding-right: 12%; 
+    }
+    .reviews-content {
+        padding: 0 12%; 
+    }
+    #order{
+        padding: 75px 2% 75px 10%;
+    }
+    .map1{
+        margin-left: 8%;
+    }
+    .welcome-img{
+        right: 8%;
+    }
+    .features{
+        padding: 100px 12% 0; 
+    }
+
+}
+
+
+@media (max-width:1250px){
+    #order{
+        padding: 75px 2% 75px 8%;
+    }
+    .map1{
+        margin-left: 6%;
+    }
+    .features{
+        padding: 100px 10% 0; 
+    }
+}
+
+
+  
+@media (max-width: 1225px){
+    .brand-pic{
+        margin-bottom: 35px;
+    }
+    .contact-box {
+        padding-left: 10%; 
+        padding-right: 10%; 
+    }
+    .reviews-content {
+        padding: 0 11%; 
+    }
+    #order{
+        padding: 75px 2% 75px 8%;
+    }
+    .contact-form{
+        width: 350px;
+    }
+    .logo{
+        left: 130px;
+    }
+    .welcome-img{
+        display: none;
+    }
+    .land-section{
+        padding-left: 12%;
+    }
+    .about-content{
+        padding: 0 15%;
+    }
+    .slogan-text{
+        padding: 0px 0 50px;
+    }
+} 
+
+
+@media (max-width: 1140px){
+    .map1{
+        display: none;
+    } 
+    .map2 {
+        display: inline-block;
+    }
+    .logo{
+        left: 100px;
+    }
+} 
+
+
+
+@media (max-width:1050px){
+    .map2 {
+        display: none;
+    }
+    .logo{
+        left: 50px;
+        width: 300px;
+    }
+    .contact-form{
+        width: 500px;
+    }
+    #order{
+        padding: 75px 2% 50px 10%;
+    }
+    .brand-pic{
+        top: 50px;
+    }
+    .about-content{
+        padding: 0 10%;
+    }
+}
+
+
+
+@media (max-width:1000px){
+    .logo{
+        display: none;
+    }
+    #order{
+        padding: 50px 12%;
+    }
+    .reviews-content {
+        margin-top: 25px;
+        padding: 0 10%; 
+    }
+    .contact-box {
+        padding-left: 12%; 
+        padding-right: 12%; 
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (max-width:991px){
+    .reviews-content{
+        padding: 0 8%;
+    }
+    .features{
+        padding: 100px 20% 0; 
+    }
+    .about-content {
+        padding: 0 30% 0 10%;
+        display:table;    
+    }
+    .about-img {
+        display:table-footer-group;
+    }
+    .about-text {
+        display:table-header-group;
+    }
+
+    .about-text{
+        left: 0;
+        max-width: 50%;
+    }
+
+    .about-img{
+        margin-top: 70px;
+    }
+
+
+}
+
+
+
+@media (max-width:850px) {
+    .land-section{
+        padding: 50px 9% 0;
+    }
+    .slogan-text{
+        font-size: 4rem;
+    }
+    .features{
+        padding: 75px 15% 25px; 
+    }
+    .feature-box {
+        padding-bottom: 50px;
+    }
+    .features-icon {
+        margin-bottom: 20px;
+    }
+    .logo{
+        position: inherit;
+        display: inline-block;
+        margin-top: 75px;
+    }
+    .about-text-box{
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (max-width:800px){
+
+    .product-head{
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+@media (max-width:640px){
+    .land-section{
+        padding: 50px 7% 0;
+    }
+    .welcome-box{
+        text-align: center;
+    }
+    .contact-form{
+        width: auto;
+    }
+    .reviews-content {
+        padding: 0 7%; 
+    }
+    .contact-box {
+        padding-left: 7%; 
+        padding-right: 7%; 
+    }
+    #order{
+        padding: 50px 7%;
+    }
+    input[type=text], input[type=tel], input[type=email], select {
+        width: 80%;
+    }
+    .features{
+        padding: 75px 10% 25px; 
+    }
+    .about-content{
+        padding: 30px 10% 0;
+    }
+    .about-img{
+        max-width: 100%;
+    }
+    .products-content {
+        text-align: center;
+        padding: 30px 5% 0;
+    }
+    .product-description{
+        margin-left: 0;
+    }
+}
+
+
+
+
+@media (max-width:550px) {
+    .land-section{
+        padding: 20px 3% 30px;
+    }
+    .slogan-text{
+        line-height: 4rem;
+        font-size: 3rem;
+    }
+    .welcome-img{
+        position: inherit;
+        display: inline-block;
+        width: 80%;
+        margin: 0 10%;
+    }
+    .about-link1{
+        padding-top: 1em;
+        display: block;
+        padding-bottom: 1em;
+    } 
+    .about-link2 {
+        display: block;
+        padding-top: 1em;
+        padding-left: 0;
+    }
+    .brand-pic{
+        display: none;
+    }
+    .nav-brand{
+        display: inline;
+    }
+    .navbar {
+        padding-top: 8%;
+    
+    }
+    .logo{
+        width: 80%;
+        margin: 75px 10% 0;
+    }
+    .about-content{
+        padding: 30px 7% 0;
+    }
+}
