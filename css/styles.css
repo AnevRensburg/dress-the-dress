@@ -2,26 +2,23 @@
 
 /* Colours */
 
-/* Blue */
-
-/* #0e94ab */
-/* #53c1d1 */
-/* #89d6e4  not used yet */
-/* #b1e6f1  not used yet */
-/* #d2f2f9 */
-
-/* Grey */
-
-/* #777 */
-/* #4C4C4C */
-/* #262626 */
-
-/* #FFF8E8 */
-
+/* 
+Hex code:  	#b0e8e2
+Hex code:  	#7FE9DE
+Hex code:  	#44bdb1
+Hex code:  	#b8b5ab
+Hex code:  	#c59ae8
+Hex code:  	##dec3f3  
+*/
 
 /* Fonts */
 
 /* font-family: add */
+
+/* 
+font-family: 'Lora', serif;
+font-family: 'Merienda', cursive; 
+*/
 
 
 
@@ -60,7 +57,7 @@ h1, h2, h3 {
 
 .navbar {
     padding: 10px 6% 0;
-    background-color: #22A39F;
+    background-color: #44bdb1;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .nav-brand{
@@ -105,12 +102,15 @@ h1, h2, h3 {
     box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
 }
 .btnl--white {
-    background-color: #22A39F;
+    background-color: #44bdb1;
     color: #fff; 
 }
 .btnl--white:hover {
     color: #fff; 
 }
+
+
+
 
 
 
@@ -156,12 +156,11 @@ h1, h2, h3 {
     color: #540375;
 }
 
-
-
-
-
-
-
+.product1-page{
+    vertical-align: top;
+    text-align: center;
+    margin: 150px 0;
+}
 
 
 /* Features */
@@ -178,11 +177,6 @@ h1, h2, h3 {
 .features-text{
     line-height: 1.65rem;
 }
-
-
-
-
-
 
 /* The flip card container */
 .flip-card {
@@ -219,35 +213,17 @@ h1, h2, h3 {
   
   /* Style the front side */
   .flip-card-front {
-    background-color: #22A39F;
+    background-color: #44bdb1;
     color: #fff;
   }
   
   /* Style the back side */
   .flip-card-back {
     padding: 20px;
-    background-color: #22A39F;
+    background-color: #44bdb1;
     color: #fff;
     transform: rotateY(180deg);
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ////////////////       About Start       //////////////// */
@@ -261,7 +237,7 @@ h1, h2, h3 {
 .about-content{
     text-align: center;
     background-color: #b0e8e2;
-    width: 950px;
+    width: 1150px;
     padding: 50px;
     margin: 0px auto;
 
@@ -270,7 +246,7 @@ h1, h2, h3 {
     display: inline-block;
     margin: 0;
     padding: 0;
-    width: 350px;
+    width: 550px;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .about-text{
@@ -278,24 +254,11 @@ h1, h2, h3 {
     text-align: center;
     display: inline-block;
     width: 400px;
-    margin: 20px;
+    margin: 0 20px 20px 40px;
     padding: 0;
 }
 
 /* ////////////////       About End       //////////////// */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ////////////////       Products Start       //////////////// */
@@ -321,19 +284,15 @@ h1, h2, h3 {
     max-height: 300px;
 }
 
-
-
 .examples-imgs{
     max-width: 300px;
     max-height: 400px;
     margin: 0px 20px 50px;
 }
 
-
-
 #sample-products{
     background-color: #fff;
-    color: #22A39F;
+    color: #44bdb1;
     text-align: center;
     padding: 50px 10%;
 }
@@ -422,7 +381,7 @@ h1, h2, h3 {
 /* ////////////////       Contact Start       //////////////// */
 
 #contact{
-    background-color: #22A39F;
+    background-color: #44bdb1;
     color: #fff;
 }
 .contact-icon{
@@ -459,7 +418,7 @@ h1, h2, h3 {
 .map{
     display: inline-block;
     position: relative;
-    left: 100px;
+    left: 200px;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     vertical-align: top;
     margin-bottom: 50px;
@@ -479,7 +438,7 @@ h1, h2, h3 {
     bottom: 0;
     width: 100%;
     padding: 0.5;
-    background-color: #22A39F;
+    background-color: #44bdb1;
 }
 .footer-text{
     font-size: 15px;
