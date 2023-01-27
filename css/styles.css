@@ -431,6 +431,16 @@ padding: 50px 10%;
 .product-value {
     padding-bottom: 0.7em; 
     padding-right: 10px;  
+    color: #fff;
+    text-decoration: none;
+}
+.ig-link{
+    text-decoration: underline;
+    color: #fff;
+}
+.ig-link:hover{
+    text-decoration: underline;
+    color: #fff;
 }
 .price{
     padding-left: 10px;  
