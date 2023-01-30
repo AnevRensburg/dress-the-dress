@@ -1,6 +1,33 @@
-/* Media Queries
+/* Media Queries */
 
 
+@media (max-width: 1200px){
+    .map{
+        display: inline;
+        position: relative;
+        right: 0%;
+        margin-bottom: 50px;
+        padding: 0;
+        box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 @media (max-width: 1375px){
     .contact-box {
         padding-left: 12%; 
