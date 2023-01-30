@@ -275,22 +275,7 @@ h1, h2, h3{
 /* ////////////////       Products End       //////////////// */
 
 
-/* ////////////////       Examples Start       //////////////// */
-
-#examples{
-    background-color: #fff;
-    color: #44bdb1;
-    text-align: center;
-    padding: 100px 10%;
-}
-.example-img{
-    max-width: 300px;
-    max-height: 350px;
-    margin: 0px 0px 50px;
-}
-
-/* ////////////////       Examples End       //////////////// */
-
+/* ////////////////       Collage Start       //////////////// */
 
 #picsBox{
     background-color: #fff;
@@ -306,6 +291,8 @@ h1, h2, h3{
     margin: 0px 0px 5px;
     padding: 0;
 }
+
+/* ////////////////       Collage End       //////////////// */
 
 
 /* ////////////////       Contact Start       //////////////// */
