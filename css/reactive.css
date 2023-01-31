@@ -12,6 +12,42 @@
     }
 }
 
+@media (max-width: 700px){
+    .map{
+        display: none;
+    }
+
+}
+
+@media (max-width: 630px){
+    #home{
+        height: 630px;
+        background-image:
+        linear-gradient(
+            to right bottom,
+            #ede8ef, 
+            #dfcfe5);
+    }    
+    .welcome-box{
+        /* color: #540375;
+        display: inline-block;
+        max-width: 800px;
+        vertical-align: top;
+        text-align: center; */
+        margin: 150px 20px 0;
+    }
+    .welcome-text{
+        font-size: 2.5rem;
+    }
+    .business-name{
+        font-size: 4rem;
+        padding: 10px 0 40px;
+    }
+    .view-prod-btn{
+        margin-top: 75px;
+    }
+
+}
 
 
 
