@@ -44,6 +44,34 @@
 
 }
 
+@media (max-width: 500px){
+    #home{
+        height: 600px;
+        background-image:
+        linear-gradient(
+            to right bottom,
+            #ede8ef, 
+            #dfcfe5);
+    }    
+    .welcome-box{
+        margin: 150px 20px 0;
+    }
+    .welcome-text{
+        font-size: 2rem;
+    }
+    .business-name{
+        font-size: 3rem;
+        padding: 10px 0 40px;
+    }
+    .view-prod-btn{
+        margin-top: 75px;
+    }
+    .slogan{
+        font-size: 20px;
+    }
+
+}
+
 @media (max-width: 550px){
     .contact-box{
         padding: 30px 5%;
@@ -76,15 +104,26 @@
 }
 
 @media (max-width: 620px){
+    #about{
+        padding: 50px 0;
+        background-color: #b0e8e2;
+    }
+    .about-content{
+        text-align: center;
+        background-color: #b0e8e2;
+        max-width: 1150px;
+        padding: 0px;
+        margin: 0px 3%;
+    }
     .about-img{
         text-align: center;
         margin: 0 auto 40px;
-        max-width: 100%;
+        max-width: 94%;
     }
     .about-text{
         display: block;
         width: 100%;
-        margin: 20px 0;
+        margin: 10px 0;
     }
     #features{
         padding: 50px 5%; 
@@ -93,4 +132,66 @@
     .welcome-box{
         max-width: 100%;
     }
+
+    /* Products */
+
+    #products{
+        background-color: #fff;
+        color: #44bdb1;   
+        text-align: center;
+        padding: 100px 6% 50px;
+    }
+    /* .product-name{
+        font-size: 45px;
+        margin-top: 40px;
+    }
+    .product-box{
+        text-align: center;
+        background-color: #b0e8e2;
+        height: 360px;
+        width: 360px;
+        padding: 20px;
+        margin: 30px auto 10px;
+    }
+    .rhinestones-img{
+        vertical-align: middle;
+        text-align: center;
+        width: 320px;
+        max-height: 400px;
+    }
+    .margin-bottom{
+        margin-bottom: 50px;
+    } */
 }
+
+
+
+@media (max-width: 1260px){
+    .product-info-img{
+        right: 20px;
+    }
+    .product-info-table{
+        left: 10px;
+    }
+}
+
+@media (max-width: 1220px){
+    #a-product-page{
+        padding: 50px 5%;
+    }  
+}
+
+@media (max-width: 1070px){
+    #a-product-page{
+        padding: 50px 2%;
+        background-color: #b0e8e2;
+    }  
+    .product-info-img{
+        right: 0;
+    }
+    .product-info-table{
+        left: 0;
+    }
+}
+
+
