@@ -141,27 +141,6 @@
         text-align: center;
         padding: 100px 6% 50px;
     }
-    /* .product-name{
-        font-size: 45px;
-        margin-top: 40px;
-    }
-    .product-box{
-        text-align: center;
-        background-color: #b0e8e2;
-        height: 360px;
-        width: 360px;
-        padding: 20px;
-        margin: 30px auto 10px;
-    }
-    .rhinestones-img{
-        vertical-align: middle;
-        text-align: center;
-        width: 320px;
-        max-height: 400px;
-    }
-    .margin-bottom{
-        margin-bottom: 50px;
-    } */
 }
 
 
@@ -200,7 +179,7 @@
     }  
     .product-info-block{
         padding: 20px 0px;
-        margin: 80px auto 10px;
+        margin: 50px auto 10px;
     }
     .product-info-img{
         display: block;
@@ -213,13 +192,24 @@
     }
 }
 
+@media (max-width: 700px){
+    .clear-btn{
+        top: 150px;
+        right: 0;
+    }
+}
+
+
+
 @media (max-width: 620px){
     #a-product-page{
         padding: 50px 7%;
     }
+    .product-name{
+        font-size: 40px;
+    }
     .clear-btn{
-        top: 150px;
-        right: 0;
+        position: initial;
     }
 }
 
@@ -231,9 +221,7 @@
     .product-catag{
         padding-right: 1.5em;
     }
-    .clear-btn{
-        top: 830px;
-    }
+
 }
 @media (max-width: 500px){
     #a-product-page{
@@ -242,9 +230,39 @@
     .product-catag{
         padding-right: 1em;
     }
+    .product-info-head{
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 70px;
+    }
+    .product-info-img{
+        display: block;
+        position: initial;
+        text-align: center;
+        max-height: 500px;
+        width: 100%;
+    }
 }
 
-
+@media (max-width: 455px){
+    #a-product-page{
+        padding: 50px 2%;
+    }  
+    .product-catag{
+        font-size: 17px;
+        padding-right: 0.5em;
+    }
+    .product-catag-exception{
+        font-size: 17px;
+    }
+    .blue-highlight{
+        font-weight: bold;
+        font-size: large;
+    }
+    .product-value {
+        padding-right: 8px;  
+    }
+}
 
 @media (max-width: 450px){
     .nav-brand{
@@ -254,5 +272,20 @@
     .navbar{
         padding: 5px 5%;
     }
+
+}
+
+@media (max-width: 400px){
+    .product-box{
+        height: 340px;
+        width: 340px;
+        padding: 20px;
+        margin: 30px auto 10px;
+    }
+    .rhinestones-img{
+        width: 300px;
+        max-height: 400px;
+    }
+
 }
 

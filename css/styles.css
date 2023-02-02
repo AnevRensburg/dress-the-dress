@@ -415,6 +415,11 @@ padding: 50px 10%;
     position: relative;
     left: 30px;
 }
+.product-info-head{
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
 .product-catag{
     padding-right: 2.5em;
     font-size: 20px;
@@ -442,7 +447,7 @@ padding: 50px 10%;
     padding-left: 10px;  
 }
 .blue-highlight{
-    color: #44bdb1;
+    color: #299287;
     font-weight: bolder;
     font-size: larger;
 }
