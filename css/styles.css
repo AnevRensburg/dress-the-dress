@@ -57,9 +57,10 @@ h1, h2, h3{
 
 .navbar{
     color: #fff;
-    padding: 10px 6% 0;
+    padding: 10px 6%;
     background-color: #44bdb1;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    text-align: left;
 }
 .nav-brand{
     margin-top: 15px;
@@ -77,17 +78,14 @@ h1, h2, h3{
     color: #fff;
 }
 .nav-item{
+    color: #fff;
     padding: 0 18px;
 }
-.navbar-toggler-icon{
-    color: red;
-    display: inline-block;
 
-}
-.navbar-toggler{
-    color: red;
-    display: inline-block;
-}
+
+
+
+
 
 
 /* Button */
